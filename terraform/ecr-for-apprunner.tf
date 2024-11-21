@@ -128,7 +128,7 @@ data "aws_iam_policy_document" "ecr_private_repository_access" {
       "ecr:UploadLayerPart"
     ]
 
-    resources = [aws_ecr_repository.main.arn] # 必要ならリソースを特定の ECR に限定
+    resources = ["*"]
   }
 }
 
@@ -159,10 +159,11 @@ data "aws_iam_policy_document" "github_oidc_apprunner_with_ecr_deploy_policy_doc
       "ecr:BatchGetImage",
       "ecr:DescribeImages",
       "ecr:GetAuthorizationToken",
-      "ecr:BatchCheckLayerAvailability"
+      "ecr:BatchCheckLayerAvailability",
+      "ecr:InitiateLayerUpload"
     ]
 
-    resources = ["*"] # 必要ならリソースを特定の ECR に限定
+    resources = ["*"]
   }
 }
 
