@@ -9,6 +9,8 @@ terraform {
   }
 }
 
+
+
 #=========================================================
 # Variables
 #=========================================================
@@ -25,6 +27,20 @@ variable "github_owner" {
 variable "github_repo" {
   type        = string
   description = "GitHub リポジトリの名前"
+}
+
+variable "aws_region" {
+  type        = string
+  description = "AWS リージョン"
+  default     = "us-west-1"
+}
+
+#=========================================================
+# Region
+#=========================================================
+
+provider "aws" {
+  region = var.aws_region
 }
 
 #=========================================================
@@ -163,6 +179,10 @@ resource "aws_iam_role_policy_attachment" "github_oidc_apprunner_with_ecr_deploy
 #=========================================================
 # OUTPUT
 #=========================================================
+
+output "aws_region" {
+  value = var.aws_region
+}
 
 output "ecr_repository_name" {
   value = aws_ecr_repository.main.name
