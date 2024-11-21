@@ -30,6 +30,6 @@ COPY --from=builder /app/public ./public
 COPY --from=builder /app/.next/standalone ./
 COPY --from=builder /app/.next/static ./.next/static
 
-ENV PORT 80
+ENV PORT 8080
 EXPOSE $PORT
 CMD ["node", "server.js"]

@@ -45,13 +45,13 @@ jobs:
         id: deploy-apprunner
         uses: awslabs/amazon-app-runner-deploy@main
         env:
-          PORT: 80
+          PORT: 8080
         with:
           service: app-runner-git-deploy-service
           image: ${{ steps.build-image.outputs.image }}
           access-role-arn: ${{ secrets.APP_RUNNER_ACCESS_ROLE_ARN }}
           region: ${{ secrets.AWS_REGION }}
-          port: 80
+          port: ${{ env.PORT }}
           cpu: 1
           memory: 2
           copy-env-vars: |
