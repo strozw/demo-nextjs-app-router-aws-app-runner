@@ -51,7 +51,6 @@ jobs:
           image: ${{ steps.build-image.outputs.image }}
           access-role-arn: ${{ secrets.APP_RUNNER_ACCESS_ROLE_ARN }}
           region: ${{ secrets.AWS_REGION }}
-          port: 80
           cpu: 1
           memory: 2
           copy-env-vars: |
