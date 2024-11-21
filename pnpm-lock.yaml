@@ -24,20 +24,20 @@ importers:
         specifier: 3.0.0-canary.1
         version: 3.0.0-canary.1
       next:
-        specifier: 15.0.0-canary.193
-        version: 15.0.0-canary.193(react-dom@19.0.0-rc-cd22717c-20241013)(react@19.0.0-rc-cd22717c-20241013)
+        specifier: ^15.0.3
+        version: 15.0.3(react-dom@19.0.0-rc-cd22717c-20241013(react@19.0.0-rc-cd22717c-20241013))(react@19.0.0-rc-cd22717c-20241013)
       react:
-        specifier: 19.0.0-rc-cd22717c-20241013
+        specifier: ^19.0.0-rc
         version: 19.0.0-rc-cd22717c-20241013
       react-dom:
-        specifier: 19.0.0-rc-cd22717c-20241013
+        specifier: ^19.0.0-rc
         version: 19.0.0-rc-cd22717c-20241013(react@19.0.0-rc-cd22717c-20241013)
       server-only:
         specifier: 0.0.1
         version: 0.0.1
       styled-components:
         specifier: 6.1.8
-        version: 6.1.8(react-dom@19.0.0-rc-cd22717c-20241013)(react@19.0.0-rc-cd22717c-20241013)
+        version: 6.1.8(react-dom@19.0.0-rc-cd22717c-20241013(react@19.0.0-rc-cd22717c-20241013))(react@19.0.0-rc-cd22717c-20241013)
       use-count-up:
         specifier: 3.0.1
         version: 3.0.1(react@19.0.0-rc-cd22717c-20241013)
@@ -47,10 +47,10 @@ importers:
     devDependencies:
       '@tailwindcss/forms':
         specifier: 0.5.7
-        version: 0.5.7(tailwindcss@3.4.3)
+        version: 0.5.7(tailwindcss@3.4.3(ts-node@10.9.1(@types/node@20.12.7)(typescript@5.4.5)))
       '@tailwindcss/typography':
         specifier: 0.5.12
-        version: 0.5.12(tailwindcss@3.4.3)
+        version: 0.5.12(tailwindcss@3.4.3(ts-node@10.9.1(@types/node@20.12.7)(typescript@5.4.5)))
       '@types/ms':
         specifier: 0.7.34
         version: 0.7.34
@@ -58,10 +58,10 @@ importers:
         specifier: 20.12.7
         version: 20.12.7
       '@types/react':
-        specifier: npm:types-react@19.0.0-rc.1
+        specifier: npm:types-react@rc
         version: types-react@19.0.0-rc.1
       '@types/react-dom':
-        specifier: npm:types-react-dom@19.0.0-rc.1
+        specifier: npm:types-react-dom@rc
         version: types-react-dom@19.0.0-rc.1
       '@vercel/git-hooks':
         specifier: 1.0.0
@@ -89,7 +89,7 @@ importers:
         version: 0.5.14(prettier@3.2.5)
       tailwindcss:
         specifier: 3.4.3
-        version: 3.4.3
+        version: 3.4.3(ts-node@10.9.1(@types/node@20.12.7)(typescript@5.4.5))
       typescript:
         specifier: 5.4.5
         version: 5.4.5
@@ -325,56 +325,56 @@ packages:
     resolution: {integrity: sha512-Yhlar6v9WQgUp/He7BdgzOz8lqMQ8sU+jkCq7Wx8Myc5YFJLbEe7lgui/V7G1qB1DJykHSGwreceSaD60Y0PUQ==}
     hasBin: true
 
-  '@next/env@15.0.0-canary.193':
-    resolution: {integrity: sha512-GBCLGuoPKHF6H/bmtALmKEV/+IsIToVelkM8eZpVDGfWtL03KueC6mUZdhF1trBZenGW3Ly1j0N872koPUcAlw==}
+  '@next/env@15.0.3':
+    resolution: {integrity: sha512-t9Xy32pjNOvVn2AS+Utt6VmyrshbpfUMhIjFO60gI58deSo/KgLOp31XZ4O+kY/Is8WAGYwA5gR7kOb1eORDBA==}
 
   '@next/eslint-plugin-next@14.2.2':
     resolution: {integrity: sha512-q+Ec2648JtBpKiu/FSJm8HAsFXlNvioHeBCbTP12T1SGcHYwhqHULSfQgFkPgHDu3kzNp2Kem4J54bK4rPQ5SQ==}
 
-  '@next/swc-darwin-arm64@15.0.0-canary.193':
-    resolution: {integrity: sha512-CRq2GfI7r5CcAY1ITTb4FZpK8UTGLrNdYelTuv9zcSe4EhuNb7Qp14XfGGL9LV39ZkP5ypcVHYhkrNbfiL3VuQ==}
+  '@next/swc-darwin-arm64@15.0.3':
+    resolution: {integrity: sha512-s3Q/NOorCsLYdCKvQlWU+a+GeAd3C8Rb3L1YnetsgwXzhc3UTWrtQpB/3eCjFOdGUj5QmXfRak12uocd1ZiiQw==}
     engines: {node: '>= 10'}
     cpu: [arm64]
     os: [darwin]
 
-  '@next/swc-darwin-x64@15.0.0-canary.193':
-    resolution: {integrity: sha512-+0W+NW4JhdcCDwuy8qd/p/zQ7TlfGJ6qSYzamq7nZ+KFWWSJqmBDzTzNfKPxPgdtfHaVyQIN1ThSEJtrah3+dA==}
+  '@next/swc-darwin-x64@15.0.3':
+    resolution: {integrity: sha512-Zxl/TwyXVZPCFSf0u2BNj5sE0F2uR6iSKxWpq4Wlk/Sv9Ob6YCKByQTkV2y6BCic+fkabp9190hyrDdPA/dNrw==}
     engines: {node: '>= 10'}
     cpu: [x64]
     os: [darwin]
 
-  '@next/swc-linux-arm64-gnu@15.0.0-canary.193':
-    resolution: {integrity: sha512-5RawIR+D7KPI/trRdKudCWPYu98eF6f2js00tctF8jOUvpGs5M06RKvp+DKzgPLxaZIxAq+YIycS/F9E88LECA==}
+  '@next/swc-linux-arm64-gnu@15.0.3':
+    resolution: {integrity: sha512-T5+gg2EwpsY3OoaLxUIofmMb7ohAUlcNZW0fPQ6YAutaWJaxt1Z1h+8zdl4FRIOr5ABAAhXtBcpkZNwUcKI2fw==}
     engines: {node: '>= 10'}
     cpu: [arm64]
     os: [linux]
 
-  '@next/swc-linux-arm64-musl@15.0.0-canary.193':
-    resolution: {integrity: sha512-IdHsXwzkmyMfOE2Ff0C3qeivgnP00l6t+kzoDymv1ldXd9f03T+XgtUtcTWKnVDEKqyBVuKgZHpAm/0JtRvhWg==}
+  '@next/swc-linux-arm64-musl@15.0.3':
+    resolution: {integrity: sha512-WkAk6R60mwDjH4lG/JBpb2xHl2/0Vj0ZRu1TIzWuOYfQ9tt9NFsIinI1Epma77JVgy81F32X/AeD+B2cBu/YQA==}
     engines: {node: '>= 10'}
     cpu: [arm64]
     os: [linux]
 
-  '@next/swc-linux-x64-gnu@15.0.0-canary.193':
-    resolution: {integrity: sha512-sOvYkCYNUiR/nq5bQuCc/zXqx6jqmRhL8+PxcOTmIQ9YdSsd9oT/ENZzJ4Bf0MiKGyLC7YpjE6ybTUl5TjlvJA==}
+  '@next/swc-linux-x64-gnu@15.0.3':
+    resolution: {integrity: sha512-gWL/Cta1aPVqIGgDb6nxkqy06DkwJ9gAnKORdHWX1QBbSZZB+biFYPFti8aKIQL7otCE1pjyPaXpFzGeG2OS2w==}
     engines: {node: '>= 10'}
     cpu: [x64]
     os: [linux]
 
-  '@next/swc-linux-x64-musl@15.0.0-canary.193':
-    resolution: {integrity: sha512-tHNzv1CRFP7fVNsQWyhvoVhnLIn6W8OqtUPS9k33X7WRYCRp+bGJQjefPV4Ht+mBNN3oM51uMtKn7EJ6wizrjw==}
+  '@next/swc-linux-x64-musl@15.0.3':
+    resolution: {integrity: sha512-QQEMwFd8r7C0GxQS62Zcdy6GKx999I/rTO2ubdXEe+MlZk9ZiinsrjwoiBL5/57tfyjikgh6GOU2WRQVUej3UA==}
     engines: {node: '>= 10'}
     cpu: [x64]
     os: [linux]
 
-  '@next/swc-win32-arm64-msvc@15.0.0-canary.193':
-    resolution: {integrity: sha512-RwXjqOXKMF4oiXbQfcTcRfoYUaTl+3xpK6Phz8BnWTeFn0PNUdDZnvUswq4RTZZEAaCw479R35KcnR8SJh/OWw==}
+  '@next/swc-win32-arm64-msvc@15.0.3':
+    resolution: {integrity: sha512-9TEp47AAd/ms9fPNgtgnT7F3M1Hf7koIYYWCMQ9neOwjbVWJsHZxrFbI3iEDJ8rf1TDGpmHbKxXf2IFpAvheIQ==}
     engines: {node: '>= 10'}
     cpu: [arm64]
     os: [win32]
 
-  '@next/swc-win32-x64-msvc@15.0.0-canary.193':
-    resolution: {integrity: sha512-Ib3U2QIzdVOxWa4ChBIbjaEJjg2xDgA71g7/kEMwRTXds8EuKRu9HVwErb+23nxiKiRFEKx9GKTGHURHEKvlJw==}
+  '@next/swc-win32-x64-msvc@15.0.3':
+    resolution: {integrity: sha512-VNAz+HN4OGgvZs6MOoVfnn41kBzT+M+tB+OK4cww6DNyWS6wKaDpaAm/qLeOUbnMh0oVx1+mg0uoYARF69dJyA==}
     engines: {node: '>= 10'}
     cpu: [x64]
     os: [win32]
@@ -1879,16 +1879,16 @@ packages:
   natural-compare@1.4.0:
     resolution: {integrity: sha512-OWND8ei3VtNC9h7V60qff3SVobHr996CTwgxubgyQYEpg290h9J0buyECNNJexkFm5sOajh5G116RYA1c8ZMSw==}
 
-  next@15.0.0-canary.193:
-    resolution: {integrity: sha512-X17zCn32Tl2lpnYoNFcGlTAkDGAyXGNpnsu6HJec/vrTA5ogi+TArSgorGQdXnKCAR+GnwSn/Um3S46VUvcCxw==}
-    engines: {node: '>=18.18.0'}
+  next@15.0.3:
+    resolution: {integrity: sha512-ontCbCRKJUIoivAdGB34yCaOcPgYXr9AAkV/IwqFfWWTXEPUgLYkSkqBhIk9KK7gGmgjc64B+RdoeIDM13Irnw==}
+    engines: {node: ^18.18.0 || ^19.8.0 || >= 20.0.0}
     hasBin: true
     peerDependencies:
       '@opentelemetry/api': ^1.1.0
       '@playwright/test': ^1.41.2
       babel-plugin-react-compiler: '*'
-      react: ^18.2.0 || 19.0.0-rc-cd22717c-20241013
-      react-dom: ^18.2.0 || 19.0.0-rc-cd22717c-20241013
+      react: ^18.2.0 || 19.0.0-rc-66855b96-20241106
+      react-dom: ^18.2.0 || 19.0.0-rc-66855b96-20241106
       sass: ^1.3.0
     peerDependenciesMeta:
       '@opentelemetry/api':
@@ -3011,34 +3011,34 @@ snapshots:
       - encoding
       - supports-color
 
-  '@next/env@15.0.0-canary.193': {}
+  '@next/env@15.0.3': {}
 
   '@next/eslint-plugin-next@14.2.2':
     dependencies:
       glob: 10.3.10
 
-  '@next/swc-darwin-arm64@15.0.0-canary.193':
+  '@next/swc-darwin-arm64@15.0.3':
     optional: true
 
-  '@next/swc-darwin-x64@15.0.0-canary.193':
+  '@next/swc-darwin-x64@15.0.3':
     optional: true
 
-  '@next/swc-linux-arm64-gnu@15.0.0-canary.193':
+  '@next/swc-linux-arm64-gnu@15.0.3':
     optional: true
 
-  '@next/swc-linux-arm64-musl@15.0.0-canary.193':
+  '@next/swc-linux-arm64-musl@15.0.3':
     optional: true
 
-  '@next/swc-linux-x64-gnu@15.0.0-canary.193':
+  '@next/swc-linux-x64-gnu@15.0.3':
     optional: true
 
-  '@next/swc-linux-x64-musl@15.0.0-canary.193':
+  '@next/swc-linux-x64-musl@15.0.3':
     optional: true
 
-  '@next/swc-win32-arm64-msvc@15.0.0-canary.193':
+  '@next/swc-win32-arm64-msvc@15.0.3':
     optional: true
 
-  '@next/swc-win32-x64-msvc@15.0.0-canary.193':
+  '@next/swc-win32-x64-msvc@15.0.3':
     optional: true
 
   '@nodelib/fs.scandir@2.1.5':
@@ -3071,18 +3071,18 @@ snapshots:
     dependencies:
       tslib: 2.5.0
 
-  '@tailwindcss/forms@0.5.7(tailwindcss@3.4.3)':
+  '@tailwindcss/forms@0.5.7(tailwindcss@3.4.3(ts-node@10.9.1(@types/node@20.12.7)(typescript@5.4.5)))':
     dependencies:
       mini-svg-data-uri: 1.4.4
-      tailwindcss: 3.4.3
+      tailwindcss: 3.4.3(ts-node@10.9.1(@types/node@20.12.7)(typescript@5.4.5))
 
-  '@tailwindcss/typography@0.5.12(tailwindcss@3.4.3)':
+  '@tailwindcss/typography@0.5.12(tailwindcss@3.4.3(ts-node@10.9.1(@types/node@20.12.7)(typescript@5.4.5)))':
     dependencies:
       lodash.castarray: 4.4.0
       lodash.isplainobject: 4.0.6
       lodash.merge: 4.6.2
       postcss-selector-parser: 6.0.10
-      tailwindcss: 3.4.3
+      tailwindcss: 3.4.3(ts-node@10.9.1(@types/node@20.12.7)(typescript@5.4.5))
 
   '@tootallnate/once@2.0.0': {}
 
@@ -3130,6 +3130,7 @@ snapshots:
       '@typescript-eslint/visitor-keys': 7.2.0
       debug: 4.3.4
       eslint: 9.0.0
+    optionalDependencies:
       typescript: 5.4.5
     transitivePeerDependencies:
       - supports-color
@@ -3151,6 +3152,7 @@ snapshots:
       minimatch: 9.0.3
       semver: 7.6.0
       ts-api-utils: 1.3.0(typescript@5.4.5)
+    optionalDependencies:
       typescript: 5.4.5
     transitivePeerDependencies:
       - supports-color
@@ -3940,11 +3942,12 @@ snapshots:
       '@typescript-eslint/parser': 7.2.0(eslint@9.0.0)(typescript@5.4.5)
       eslint: 9.0.0
       eslint-import-resolver-node: 0.3.9
-      eslint-import-resolver-typescript: 3.6.1(@typescript-eslint/parser@7.2.0)(eslint-import-resolver-node@0.3.9)(eslint-plugin-import@2.29.1)(eslint@9.0.0)
-      eslint-plugin-import: 2.29.1(@typescript-eslint/parser@7.2.0)(eslint-import-resolver-typescript@3.6.1)(eslint@9.0.0)
+      eslint-import-resolver-typescript: 3.6.1(@typescript-eslint/parser@7.2.0(eslint@9.0.0)(typescript@5.4.5))(eslint-import-resolver-node@0.3.9)(eslint-plugin-import@2.29.1(eslint@9.0.0))(eslint@9.0.0)
+      eslint-plugin-import: 2.29.1(@typescript-eslint/parser@7.2.0(eslint@9.0.0)(typescript@5.4.5))(eslint-import-resolver-typescript@3.6.1(@typescript-eslint/parser@7.2.0(eslint@9.0.0)(typescript@5.4.5))(eslint-import-resolver-node@0.3.9)(eslint-plugin-import@2.29.1(eslint@9.0.0))(eslint@9.0.0))(eslint@9.0.0)
       eslint-plugin-jsx-a11y: 6.8.0(eslint@9.0.0)
       eslint-plugin-react: 7.34.1(eslint@9.0.0)
       eslint-plugin-react-hooks: 4.6.0(eslint@9.0.0)
+    optionalDependencies:
       typescript: 5.4.5
     transitivePeerDependencies:
       - eslint-import-resolver-webpack
@@ -3958,13 +3961,13 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  eslint-import-resolver-typescript@3.6.1(@typescript-eslint/parser@7.2.0)(eslint-import-resolver-node@0.3.9)(eslint-plugin-import@2.29.1)(eslint@9.0.0):
+  eslint-import-resolver-typescript@3.6.1(@typescript-eslint/parser@7.2.0(eslint@9.0.0)(typescript@5.4.5))(eslint-import-resolver-node@0.3.9)(eslint-plugin-import@2.29.1(eslint@9.0.0))(eslint@9.0.0):
     dependencies:
       debug: 4.3.4
       enhanced-resolve: 5.16.0
       eslint: 9.0.0
-      eslint-module-utils: 2.8.1(@typescript-eslint/parser@7.2.0)(eslint-import-resolver-node@0.3.9)(eslint-import-resolver-typescript@3.6.1)(eslint@9.0.0)
-      eslint-plugin-import: 2.29.1(@typescript-eslint/parser@7.2.0)(eslint-import-resolver-typescript@3.6.1)(eslint@9.0.0)
+      eslint-module-utils: 2.8.1(@typescript-eslint/parser@7.2.0(eslint@9.0.0)(typescript@5.4.5))(eslint-import-resolver-node@0.3.9)(eslint-import-resolver-typescript@3.6.1(@typescript-eslint/parser@7.2.0(eslint@9.0.0)(typescript@5.4.5))(eslint-import-resolver-node@0.3.9)(eslint-plugin-import@2.29.1(eslint@9.0.0))(eslint@9.0.0))(eslint@9.0.0)
+      eslint-plugin-import: 2.29.1(@typescript-eslint/parser@7.2.0(eslint@9.0.0)(typescript@5.4.5))(eslint-import-resolver-typescript@3.6.1(@typescript-eslint/parser@7.2.0(eslint@9.0.0)(typescript@5.4.5))(eslint-import-resolver-node@0.3.9)(eslint-plugin-import@2.29.1(eslint@9.0.0))(eslint@9.0.0))(eslint@9.0.0)
       fast-glob: 3.3.2
       get-tsconfig: 4.7.3
       is-core-module: 2.13.1
@@ -3975,19 +3978,19 @@ snapshots:
       - eslint-import-resolver-webpack
       - supports-color
 
-  eslint-module-utils@2.8.1(@typescript-eslint/parser@7.2.0)(eslint-import-resolver-node@0.3.9)(eslint-import-resolver-typescript@3.6.1)(eslint@9.0.0):
+  eslint-module-utils@2.8.1(@typescript-eslint/parser@7.2.0(eslint@9.0.0)(typescript@5.4.5))(eslint-import-resolver-node@0.3.9)(eslint-import-resolver-typescript@3.6.1(@typescript-eslint/parser@7.2.0(eslint@9.0.0)(typescript@5.4.5))(eslint-import-resolver-node@0.3.9)(eslint-plugin-import@2.29.1(eslint@9.0.0))(eslint@9.0.0))(eslint@9.0.0):
     dependencies:
-      '@typescript-eslint/parser': 7.2.0(eslint@9.0.0)(typescript@5.4.5)
       debug: 3.2.7
+    optionalDependencies:
+      '@typescript-eslint/parser': 7.2.0(eslint@9.0.0)(typescript@5.4.5)
       eslint: 9.0.0
       eslint-import-resolver-node: 0.3.9
-      eslint-import-resolver-typescript: 3.6.1(@typescript-eslint/parser@7.2.0)(eslint-import-resolver-node@0.3.9)(eslint-plugin-import@2.29.1)(eslint@9.0.0)
+      eslint-import-resolver-typescript: 3.6.1(@typescript-eslint/parser@7.2.0(eslint@9.0.0)(typescript@5.4.5))(eslint-import-resolver-node@0.3.9)(eslint-plugin-import@2.29.1(eslint@9.0.0))(eslint@9.0.0)
     transitivePeerDependencies:
       - supports-color
 
-  eslint-plugin-import@2.29.1(@typescript-eslint/parser@7.2.0)(eslint-import-resolver-typescript@3.6.1)(eslint@9.0.0):
+  eslint-plugin-import@2.29.1(@typescript-eslint/parser@7.2.0(eslint@9.0.0)(typescript@5.4.5))(eslint-import-resolver-typescript@3.6.1(@typescript-eslint/parser@7.2.0(eslint@9.0.0)(typescript@5.4.5))(eslint-import-resolver-node@0.3.9)(eslint-plugin-import@2.29.1(eslint@9.0.0))(eslint@9.0.0))(eslint@9.0.0):
     dependencies:
-      '@typescript-eslint/parser': 7.2.0(eslint@9.0.0)(typescript@5.4.5)
       array-includes: 3.1.8
       array.prototype.findlastindex: 1.2.5
       array.prototype.flat: 1.3.2
@@ -3996,7 +3999,7 @@ snapshots:
       doctrine: 2.1.0
       eslint: 9.0.0
       eslint-import-resolver-node: 0.3.9
-      eslint-module-utils: 2.8.1(@typescript-eslint/parser@7.2.0)(eslint-import-resolver-node@0.3.9)(eslint-import-resolver-typescript@3.6.1)(eslint@9.0.0)
+      eslint-module-utils: 2.8.1(@typescript-eslint/parser@7.2.0(eslint@9.0.0)(typescript@5.4.5))(eslint-import-resolver-node@0.3.9)(eslint-import-resolver-typescript@3.6.1(@typescript-eslint/parser@7.2.0(eslint@9.0.0)(typescript@5.4.5))(eslint-import-resolver-node@0.3.9)(eslint-plugin-import@2.29.1(eslint@9.0.0))(eslint@9.0.0))(eslint@9.0.0)
       hasown: 2.0.2
       is-core-module: 2.13.1
       is-glob: 4.0.3
@@ -4006,6 +4009,8 @@ snapshots:
       object.values: 1.2.0
       semver: 6.3.1
       tsconfig-paths: 3.15.0
+    optionalDependencies:
+      '@typescript-eslint/parser': 7.2.0(eslint@9.0.0)(typescript@5.4.5)
     transitivePeerDependencies:
       - eslint-import-resolver-typescript
       - eslint-import-resolver-webpack
@@ -4755,9 +4760,9 @@ snapshots:
 
   natural-compare@1.4.0: {}
 
-  next@15.0.0-canary.193(react-dom@19.0.0-rc-cd22717c-20241013)(react@19.0.0-rc-cd22717c-20241013):
+  next@15.0.3(react-dom@19.0.0-rc-cd22717c-20241013(react@19.0.0-rc-cd22717c-20241013))(react@19.0.0-rc-cd22717c-20241013):
     dependencies:
-      '@next/env': 15.0.0-canary.193
+      '@next/env': 15.0.3
       '@swc/counter': 0.1.3
       '@swc/helpers': 0.5.13
       busboy: 1.6.0
@@ -4767,14 +4772,14 @@ snapshots:
       react-dom: 19.0.0-rc-cd22717c-20241013(react@19.0.0-rc-cd22717c-20241013)
       styled-jsx: 5.1.6(react@19.0.0-rc-cd22717c-20241013)
     optionalDependencies:
-      '@next/swc-darwin-arm64': 15.0.0-canary.193
-      '@next/swc-darwin-x64': 15.0.0-canary.193
-      '@next/swc-linux-arm64-gnu': 15.0.0-canary.193
-      '@next/swc-linux-arm64-musl': 15.0.0-canary.193
-      '@next/swc-linux-x64-gnu': 15.0.0-canary.193
-      '@next/swc-linux-x64-musl': 15.0.0-canary.193
-      '@next/swc-win32-arm64-msvc': 15.0.0-canary.193
-      '@next/swc-win32-x64-msvc': 15.0.0-canary.193
+      '@next/swc-darwin-arm64': 15.0.3
+      '@next/swc-darwin-x64': 15.0.3
+      '@next/swc-linux-arm64-gnu': 15.0.3
+      '@next/swc-linux-arm64-musl': 15.0.3
+      '@next/swc-linux-x64-gnu': 15.0.3
+      '@next/swc-linux-x64-musl': 15.0.3
+      '@next/swc-win32-arm64-msvc': 15.0.3
+      '@next/swc-win32-x64-msvc': 15.0.3
       sharp: 0.33.5
     transitivePeerDependencies:
       - '@babel/core'
@@ -4966,11 +4971,13 @@ snapshots:
       camelcase-css: 2.0.1
       postcss: 8.4.38
 
-  postcss-load-config@4.0.2(postcss@8.4.38):
+  postcss-load-config@4.0.2(postcss@8.4.38)(ts-node@10.9.1(@types/node@20.12.7)(typescript@5.4.5)):
     dependencies:
       lilconfig: 3.1.1
-      postcss: 8.4.38
       yaml: 2.4.1
+    optionalDependencies:
+      postcss: 8.4.38
+      ts-node: 10.9.1(@types/node@20.12.7)(typescript@5.4.5)
 
   postcss-nested@6.0.1(postcss@8.4.38):
     dependencies:
@@ -5330,7 +5337,7 @@ snapshots:
 
   strip-json-comments@3.1.1: {}
 
-  styled-components@6.1.8(react-dom@19.0.0-rc-cd22717c-20241013)(react@19.0.0-rc-cd22717c-20241013):
+  styled-components@6.1.8(react-dom@19.0.0-rc-cd22717c-20241013(react@19.0.0-rc-cd22717c-20241013))(react@19.0.0-rc-cd22717c-20241013):
     dependencies:
       '@emotion/is-prop-valid': 1.2.1
       '@emotion/unitless': 0.8.0
@@ -5367,7 +5374,7 @@ snapshots:
 
   supports-preserve-symlinks-flag@1.0.0: {}
 
-  tailwindcss@3.4.3:
+  tailwindcss@3.4.3(ts-node@10.9.1(@types/node@20.12.7)(typescript@5.4.5)):
     dependencies:
       '@alloc/quick-lru': 5.2.0
       arg: 5.0.2
@@ -5386,7 +5393,7 @@ snapshots:
       postcss: 8.4.38
       postcss-import: 15.1.0(postcss@8.4.38)
       postcss-js: 4.0.1(postcss@8.4.38)
-      postcss-load-config: 4.0.2(postcss@8.4.38)
+      postcss-load-config: 4.0.2(postcss@8.4.38)(ts-node@10.9.1(@types/node@20.12.7)(typescript@5.4.5))
       postcss-nested: 6.0.1(postcss@8.4.38)
       postcss-selector-parser: 6.0.16
       resolve: 1.22.8
@@ -5467,6 +5474,25 @@ snapshots:
       typescript: 4.9.5
       v8-compile-cache-lib: 3.0.1
       yn: 3.1.1
+
+  ts-node@10.9.1(@types/node@20.12.7)(typescript@5.4.5):
+    dependencies:
+      '@cspotcode/source-map-support': 0.8.1
+      '@tsconfig/node10': 1.0.11
+      '@tsconfig/node12': 1.0.11
+      '@tsconfig/node14': 1.0.3
+      '@tsconfig/node16': 1.0.4
+      '@types/node': 20.12.7
+      acorn: 8.11.3
+      acorn-walk: 8.3.2
+      arg: 4.1.3
+      create-require: 1.1.1
+      diff: 4.0.2
+      make-error: 1.3.6
+      typescript: 5.4.5
+      v8-compile-cache-lib: 3.0.1
+      yn: 3.1.1
+    optional: true
 
   ts-toolbelt@6.15.5: {}
 
