@@ -44,8 +44,6 @@ jobs:
       - name: Deploy to App Runner Image
         id: deploy-apprunner
         uses: awslabs/amazon-app-runner-deploy@main
-        env:
-          PORT: 80
         with:
           service: app-runner-git-deploy-service
           image: ${{ steps.build-image.outputs.image }}
@@ -53,8 +51,6 @@ jobs:
           region: ${{ secrets.AWS_REGION }}
           cpu: 1
           memory: 2
-          copy-env-vars: |
-            PORT
           # Deprecated: wait-for-service-stability: true
           # The new way to control service stability timeout
           wait-for-service-stability-seconds: 1200
